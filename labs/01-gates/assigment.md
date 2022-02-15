@@ -1,4 +1,4 @@
-# Lab 1: Ales Pikhart
+# Lab 1:  Ales Pikhart
 
 ### De Morgan's laws
 
