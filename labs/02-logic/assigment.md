@@ -40,7 +40,7 @@
 
 1. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with at least one assert (use BCD codes of your student ID digits as input combinations). Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
-   Last two digits of my student ID: **xxxx??**
+   Last two digits of my student ID: **xxxx63**
 
 ```vhdl
     p_stimulus : process
@@ -49,7 +49,7 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "0110"; -- ID = xxxx63
+        s_b <= "0110"; 
         s_a <= "0011";        
         wait for 100 ns;
         -- Expected output
@@ -67,8 +67,8 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   ![Log](images/test.PNG)
 
 3. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [https://www.edaplayground.com/x/DiaH](https://www.edaplayground.com/x/DiaH)
