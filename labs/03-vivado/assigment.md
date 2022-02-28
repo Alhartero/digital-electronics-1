@@ -2,6 +2,8 @@
 
 ## Preparation task
 
+![Schematic](images/schematic.PNG)
+
 **LEDs**
 | **LED number** | **FPGA pin** |
 | :-: | :-: |
