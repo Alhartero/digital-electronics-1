@@ -2,7 +2,7 @@
 
 ## Preparation task
 
-![Schematic](images/schematic.PNG)
+![Schematic](images/schematic.png)
 
 **LEDs**
 | **LED number** | **FPGA pin** |
