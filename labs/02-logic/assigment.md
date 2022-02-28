@@ -23,19 +23,36 @@
 
 1. Karnaugh maps for other two functions:
 
-   Greater than:
+  ### *The K-map for the "greater than" function*
+|           |           |         |  **A1**  |  **A0**  |           |
+| :-:       | :-:       | :-:     | :-:         | :-:       | :-:       | 
+|           |           | ***0 0*** | ***0 1***     | ***1 1***   | ***1 0***   | 
+|           | ***0 0***   | 0   | 0           | 0         | 0         | 
+| **B1,B0** |  ***0 1***  | **1**        | 0       | 0         |  0        |
+|           | ***1 1***   | **1**        | **1**            | 0    | **1**         |
+|           | ***1 0***   | **1**        | **1**            | 0         | 0     |
 
-    
 
+### *The K-map for the "less than" function*
+|           |           |         |  **A1,A0**  |           |           |
+| :-:       | :-:       | :-:     | :-:         | :-:       | :-:       | 
+|           |           | ***0 0*** | ***0 1***     | ***1 1***   | ***1 0***   | 
+|           | ***0 0***   | **0**   | 1           | 1         | 1         | 
+| **B1,B0** |  ***0 1***  | **0**       | **0**       | 1         |  1        |
+|           | ***1 1***   | **0**       | **0**            | **0**     | **0**          |
+|           | ***1 0***   | **0**       | **0**            | 1         | **0**     |
 
-   Less than:
-
-   ![K-maps](images/kmap_empty.png)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/comparator_min.png)
+#### Simplified SoP form of the "greater than" function : 
+#### GreaterSoP = B1./A1 + /A1./A0.B0 + /A0.B1.B0 
+##### '/' -> negation 
 
+
+#### Simplified PoS form of the "less than" function : 
+#### LessPoS = (A1+A0).(/B1+/B2).(A1+/B1).(A1+/B0).(A0+/B1)
+##### '/' -> negation 
 ### 4-bit comparator
 
 1. Listing of VHDL stimulus process from testbench file (`testbench.vhd`) with at least one assert (use BCD codes of your student ID digits as input combinations). Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
