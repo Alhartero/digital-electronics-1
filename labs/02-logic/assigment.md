@@ -46,12 +46,12 @@
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
 #### Simplified SoP form of the "greater than" function : 
-#### GreaterSoP = (B1./A1).(B1+B0).(/A1+/A0).(B1+/A1).(B0+/A1) 
+#### GreaterSoP = B1./A1 + B0./A1./A0 + B1.B0./A0
 ##### / -> negation 
 
 
 #### Simplified PoS form of the "less than" function : 
-#### LessPoS = (A1+A0).(/B1+/B2).(A1+/B1).(A1+/B0).(A0+/B1)
+#### LessPoS = (A1+A0).(/B1+/B0).(A1+/B1).(A1+/B0).(A0+/B1)
 ##### / -> negation 
 ### 4-bit comparator
 
