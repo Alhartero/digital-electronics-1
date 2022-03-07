@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar  7 18:04:56 2022
+# Process ID: 21276
+# Current directory: F:/Download/digital-electronics-1-main/labs/03-vivado/multiplexer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent27008 F:\Download\digital-electronics-1-main\labs\03-vivado\multiplexer\multiplexer.xpr
+# Log file: F:/Download/digital-electronics-1-main/labs/03-vivado/multiplexer/vivado.log
+# Journal file: F:/Download/digital-electronics-1-main/labs/03-vivado/multiplexer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/Download/digital-electronics-1-main/labs/03-vivado/multiplexer/multiplexer.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_mux_3bit_4to1.tcl
+close_sim
+reset_simulation -simset sim_1 -mode behavioral
+reset_simulation -simset sim_1 -mode behavioral
