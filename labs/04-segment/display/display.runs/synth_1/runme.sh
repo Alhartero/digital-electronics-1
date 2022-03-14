@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.runs/synth_1'
+HD_PWD='D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

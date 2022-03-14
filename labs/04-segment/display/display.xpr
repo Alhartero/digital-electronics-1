@@ -3,10 +3,10 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="49" Path="D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.xpr">
+<Project Version="7" Minor="49" Path="D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="ab3eecd9e31d423b878b8a1b1f1a7668"/>
+    <Option Name="Id" Val="e344f49df9c54f0ca1b93538cd6c5a8a"/>
     <Option Name="Part" Val="xc7a50ticsg324-1L"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
@@ -88,7 +88,7 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PSRCDIR/constrs_1/new/Nexys A7-50T.xdc">
+      <File Path="$PSRCDIR/constrs_1/new/nexys-a7-50t.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>

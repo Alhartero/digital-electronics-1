@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.runs/impl_1/top.tcl"
+  variable script "D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.runs/impl_1/top.tcl"
   variable category "vivado_impl"
 }
 
@@ -114,8 +114,6 @@ proc step_failed { step } {
   close $ch
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 OPTRACE "Implementation" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -124,8 +122,6 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 1
-  set_param synth.incrementalSynthesisCache C:/Users/newDefaultTest/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-2504-PC-634/incrSyn
-  set_param xicom.use_bs_reader 1
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a50ticsg324-1L
   set_property board_part digilentinc.com:nexys-a7-50t:part0:1.0 [current_project]
@@ -133,15 +129,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.cache/wt [current_project]
-  set_property parent.project_path D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.xpr [current_project]
-  set_property ip_output_repo D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.cache/ip [current_project]
+  set_property webtalk.parent_dir D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.cache/wt [current_project]
+  set_property parent.project_path D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.xpr [current_project]
+  set_property ip_output_repo D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.runs/synth_1/top.dcp
+  add_files -quiet D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.runs/synth_1/top.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc {{D:/Documents/233263/DE1/digital-electronics-1/labs/04-segment/display/display.srcs/constrs_1/new/Nexys A7-50T.xdc}}
+  read_xdc D:/Documents/Komar/digital-electronics-1/labs/04-segment/display/display.srcs/constrs_1/new/nexys-a7-50t.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

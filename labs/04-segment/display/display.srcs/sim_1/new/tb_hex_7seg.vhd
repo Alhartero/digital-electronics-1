@@ -1,40 +1,27 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 03/08/2022 01:36:16 PM
--- Design Name: 
--- Module Name: tb_hex_7seg - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+------------------------------------------------------------
+--
+-- Testbench for 7-segment display decoder.
+-- Nexys A7-50T, Vivado v2020.1, EDA Playground
+--
+-- Copyright (c) 2020-Present Tomas Fryza
+-- Dept. of Radio Electronics, Brno Univ. of Technology, Czechia
+-- This work is licensed under the terms of the MIT license.
+--
+------------------------------------------------------------
 
+library ieee;
+use ieee.std_logic_1164.all;
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
+------------------------------------------------------------
+-- Entity declaration for testbench
+------------------------------------------------------------
 entity tb_hex_7seg is
---  Port ( );
-end tb_hex_7seg;
+    -- Entity of testbench is always empty
+end entity tb_hex_7seg;
 
+------------------------------------------------------------
+-- Architecture body for testbench
+------------------------------------------------------------
 architecture testbench of tb_hex_7seg is
 
     -- Local signals
@@ -60,70 +47,32 @@ begin
         -- First test case
         s_hex <= "0000"; wait for 50 ns;
         assert (s_seg = "0000001")
-        report "Input combination 0000 FAILED" severity error;
-
+        report "Input combination 0000 (0) FAILED" severity error;
 
         -- WRITE OTHER TEST CASES HERE
         s_hex <= "0001"; wait for 50 ns;
         assert (s_seg = "1001111")
-        report "Input combination 0001 FAILED" severity error;
-        
-        s_hex <= "0010"; wait for 50 ns;
-        assert (s_seg = "0010010")
-        report "Input combination 0010 FAILED" severity error;
-        
-        s_hex <= "0011"; wait for 50 ns;
-        assert (s_seg = "0000110")
-        report "Input combination 0011 FAILED" severity error;
+        report "Input combination 0000 (1) FAILED" severity error;
         
         s_hex <= "0100"; wait for 50 ns;
         assert (s_seg = "1001100")
-        report "Input combination 0100 FAILED" severity error;
-        
-        s_hex <= "0101"; wait for 50 ns;
-        assert (s_seg = "0100100")
-        report "Input combination 0101 FAILED" severity error;
-        
-        s_hex <= "0110"; wait for 50 ns;
-        assert (s_seg = "0100000")
-        report "Input combination 0110 FAILED" severity error;
-        
-        s_hex <= "0111"; wait for 50 ns;
-        assert (s_seg = "0001111")
-        report "Input combination 0111 FAILED" severity error;
-        
-        s_hex <= "1000"; wait for 50 ns;
-        assert (s_seg = "0000000");
-        report "Input combination 1000 FAILED" severity error;
-        
-        s_hex <= "1001"; wait for 50 ns;
+        report "Input combination 0100 (4) FAILED" severity error;
+
+	s_hex <= "1001"; wait for 50 ns;
         assert (s_seg = "0000100")
-        report "Input combination 1001 FAILED" severity error;
+        report "Input combination 1001 (9) FAILED" severity error;
         
-        s_hex <= "1010"; wait for 50 ns;
-        assert (s_seg = "0001000");
-        report "Input combination 1010 FAILED" severity error;
-        
-        s_hex <= "1011"; wait for 50 ns;
-        assert (s_seg = "1100000");
-        report "Input combination 1011 FAILED" severity error;
-        
+	s_hex <= "1010"; wait for 50 ns;
+        assert (s_seg = "0001000")
+        report "Input combination 1010 (A) FAILED" severity error;
+	
         s_hex <= "1100"; wait for 50 ns;
-        assert (s_seg = "0110001");
-        report "Input combination 1100 FAILED" severity error;
-        
-        s_hex <= "1101"; wait for 50 ns;
-        assert (s_seg = "1000010");
-        report "Input combination 1101 FAILED" severity error;
-        
-        s_hex <= "1110"; wait for 50 ns;
-        assert (s_seg = "0110000");
-        report "Input combination 1110 FAILED" severity error;
+        assert (s_seg = "0110001")
+        report "Input combination 1100 (C) FAILED" severity error;
         
         s_hex <= "1111"; wait for 50 ns;
-        assert (s_seg = "0111000");
-        report "Input combination 1111 FAILED" severity error;
-
+        assert (s_seg = "0111000")
+        report "Input combination 1100 (F) FAILED" severity error;
 
         report "Stimulus process finished" severity note;
         wait;

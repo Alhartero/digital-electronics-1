@@ -1,0 +1,162 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 17500
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Mar 07 22:42:00 CET 2022
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Programs/xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Programs/xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	xpikha00
+User home directory: C:/Users/xpikha00
+User working directory: E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer
+User country: 	CZ
+User language: 	cs
+User locale: 	cs_CZ
+
+RDI_BASEROOT: D:/Programs/xilinx/Vivado
+HDI_APPROOT: D:/Programs/xilinx/Vivado/2020.2
+RDI_DATADIR: D:/Programs/xilinx/Vivado/2020.2/data
+RDI_BINDIR: D:/Programs/xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/xpikha00/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/xpikha00/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/xpikha00/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Programs/xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/vivado.log
+Vivado journal file location: 	E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/vivado.jou
+Engine tmp dir: 	E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/.Xil/Vivado-17500-B05-229A
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programs/xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Programs/xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Programs/xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Programs/xilinx/Vivado/2020.2
+XILINX_VIVADO: D:/Programs/xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Programs/xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,029 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: E:\Škola\DE1\digital-electronics-1\labs\03-vivado\multiplexer\multiplexer.xpr. Version: Vivado v2020.2 
+// bz (cr):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'F:/Download/digital-electronics-1-main/labs/03-vivado/multiplexer' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 70 MB (+70770kb) [00:00:16]
+// [Engine Memory]: 1,029 MB (+927799kb) [00:00:16]
+// [GUI Memory]: 91 MB (+18343kb) [00:00:16]
+// [GUI Memory]: 115 MB (+20351kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  4095 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/xilinx/Vivado/2020.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,029 MB. GUI used memory: 57 MB. Current time: 3/7/22, 10:42:05 PM CET
+// Tcl Message: open_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1014.520 ; gain = 0.000 
+// Project name: multiplexer; location: E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bz
+// [GUI Memory]: 122 MB (+1325kb) [00:00:25]
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 129 MB (+1015kb) [00:00:26]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3bit_4to1(Behavioral) (mux_2bit_4to1.vhd)]", 1, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, mux_3bit_4to1(Behavioral) (mux_2bit_4to1.vhd)]", 1, false, false, false, false, false, true); // D - Double Click
+selectCodeEditor("mux_2bit_4to1.vhd", 115, 156); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 116, 163); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 349, 229); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 164, 249); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 235, 242); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 88, 396); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 149, 398); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 104, 390); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 21, 404); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("mux_2bit_4to1.vhd", 105, 457); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 104, 455); // bP
+selectCodeEditor("mux_2bit_4to1.vhd", 81, 217); // bP
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_mux_3bit_4to1' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_mux_3bit_4to1_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sources_1/new/mux_2bit_4to1.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'mux_3bit_4to1' INFO: [VRFC 10-163] Analyzing VHDL file "E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.srcs/sim_1/new/tb_mux_2bit_4to1.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'tb_mux_3bit_4to1' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto 4381c551685a45b48bd2ef7bb9a216bf --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_mux_3bit_4to1_behav xil_defaultlib.tb_mux_3bit_4to1 -log elaborate.log" 
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.sim/sim_1/behav/xsim/xsim.dir/tb_mux_3bit_4to1_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.sim/sim_1/behav/xsim/xsim.dir/tb_mux_3bit_4to1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Mar  7 22:43:12 2022. For additional details about this file, please refer to the WebTalk help file at D:/Programs/xilinx/Vivado/2020.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Mon Mar  7 22:43:12 2022... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1014.520 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Škola/DE1/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_mux_3bit_4to1_behav -key {Behavioral:sim_1:Functional:tb_mux_3bit_4to1} -tclbatch {tb_mux_3bit_4to1.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// Elapsed time: 177 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// [GUI Memory]: 137 MB (+1434kb) [00:12:19]
