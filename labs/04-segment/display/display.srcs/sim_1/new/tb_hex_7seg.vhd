@@ -1,5 +1,5 @@
 ------------------------------------------------------------
---
+-- 
 -- Testbench for 7-segment display decoder.
 -- Nexys A7-50T, Vivado v2020.1, EDA Playground
 --
