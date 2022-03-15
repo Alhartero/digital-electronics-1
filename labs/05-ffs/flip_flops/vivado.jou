@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Mar 15 13:00:13 2022
+# Process ID: 4968
+# Current directory: D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13116 D:\Documents\233263\DE1\digital-electronics-1\labs\05-ffs\flip_flops\flip_flops.xpr
+# Log file: D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/vivado.log
+# Journal file: D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+add_bp {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} 51
+remove_bps -file {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} -line 51
+add_bp {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} 93
+remove_bps -file {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} -line 93
+add_bp {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} 93
+remove_bps -file {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} -line 93
+add_bp {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} 95
+remove_bps -file {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} -line 95
+add_bp {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} 65
+remove_bps -file {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} -line 65
+add_bp {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} 65
+remove_bps -file {D:/Documents/233263/DE1/digital-electronics-1/labs/05-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_ff_rst.vhd} -line 65
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+set_property -name {xsim.simulate.runtime} -value {250ns} -objects [get_filesets sim_1]
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
+launch_simulation
+source tb_ff_rst.tcl
+close_sim
