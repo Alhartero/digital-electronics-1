@@ -1,0 +1,155 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 27932
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Mon Mar 14 17:37:15 CET 2022
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 2
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	D:/Programs/xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	D:/Programs/xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	xpikha00
+User home directory: C:/Users/xpikha00
+User working directory: E:/Škola/DE1/digital-electronics-1/labs/04-segment/display
+User country: 	CZ
+User language: 	cs
+User locale: 	cs_CZ
+
+RDI_BASEROOT: D:/Programs/xilinx/Vivado
+HDI_APPROOT: D:/Programs/xilinx/Vivado/2020.2
+RDI_DATADIR: D:/Programs/xilinx/Vivado/2020.2/data
+RDI_BINDIR: D:/Programs/xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/xpikha00/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/xpikha00/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/xpikha00/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	D:/Programs/xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/vivado.log
+Vivado journal file location: 	E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/vivado.jou
+Engine tmp dir: 	E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/.Xil/Vivado-27932-B05-229A
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Programs/xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: D:/Programs/xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: D:/Programs/xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: D:/Programs/xilinx/Vivado/2020.2
+XILINX_VIVADO: D:/Programs/xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: D:/Programs/xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	157 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,027 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aK (cr): Older Project Version: addNotify
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: E:\Škola\DE1\digital-electronics-1\labs\04-segment\display\display.xpr. Version: Vivado v2020.1 
+dismissDialog("Older Project Version"); // aK
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// HMemoryUtils.trashcanNow. Engine heap size: 1,027 MB. GUI used memory: 65 MB. Current time: 3/14/22, 5:37:17 PM CET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Documents/Komar/digital-electronics-1/labs/04-segment/display' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'display.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 117 MB (+120408kb) [00:00:12]
+// [Engine Memory]: 1,027 MB (+924965kb) [00:00:12]
+// [GUI Memory]: 123 MB (+444kb) [00:00:13]
+// WARNING: HEventQueue.dispatchEvent() is taking  2489 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/xilinx/Vivado/2020.2/data/ip'. 
+// Project name: display; location: E:/Škola/DE1/digital-electronics-1/labs/04-segment/display; part: xc7a50ticsg324-1L
+// Tcl Message: open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1015.180 ; gain = 0.000 
+dismissDialog("Open Project"); // bz
+// [GUI Memory]: 133 MB (+3491kb) [00:00:15]
+// Tcl Message: update_compile_order -fileset sources_1 
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN, "Open Implemented Design"); // ah
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // ac
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ak
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // ac
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cr):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_hex_7seg' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_hex_7seg_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'hex_7seg' INFO: [VRFC 10-163] Analyzing VHDL file "E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd" into library xil_defaultlib INFO: [VRFC 10-3107] analyzing entity 'tb_hex_7seg' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto e344f49df9c54f0ca1b93538cd6c5a8a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_hex_7seg_behav xil_defaultlib.tb_hex_7seg -log elaborate.log" 
+// Tcl Message: Built simulation snapshot tb_hex_7seg_behav 
+// Tcl Message:  ****** Webtalk v2020.2 (64-bit)   **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020   **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim/xsim.dir/tb_hex_7seg_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim/xsim.dir/tb_hex_7seg_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Mar 14 17:37:45 2022. For additional details about this file, please refer to the WebTalk help file at D:/Programs/xilinx/Vivado/2020.2/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Mon Mar 14 17:37:45 2022... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1015.180 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_hex_7seg_behav -key {Behavioral:sim_1:Functional:tb_hex_7seg} -tclbatch {tb_hex_7seg.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.2 
+// Elapsed time: 605 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a
+selectButton("OptionPane.button", "Yes"); // JButton
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a

@@ -1,0 +1,76 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Mar 14 17:37:00 2022
+# Process ID: 27932
+# Current directory: E:/Škola/DE1/digital-electronics-1/labs/04-segment/display
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32392 E:\Škola\DE1\digital-electronics-1\labs\04-segment\display\display.xpr
+# Log file: E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/vivado.log
+# Journal file: E:/Škola/DE1/digital-electronics-1/labs/04-segment/display\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Documents/Komar/digital-electronics-1/labs/04-segment/display' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'display.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1015.180 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_hex_7seg' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_hex_7seg_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.srcs/sources_1/new/hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7seg'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_hex_7seg'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim'
+"xelab -wto e344f49df9c54f0ca1b93538cd6c5a8a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_hex_7seg_behav xil_defaultlib.tb_hex_7seg -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto e344f49df9c54f0ca1b93538cd6c5a8a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_hex_7seg_behav xil_defaultlib.tb_hex_7seg -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.hex_7seg [hex_7seg_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_hex_7seg
+Built simulation snapshot tb_hex_7seg_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim/xsim.dir/tb_hex_7seg_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim/xsim.dir/tb_hex_7seg_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Mar 14 17:37:45 2022. For additional details about this file, please refer to the WebTalk help file at D:/Programs/xilinx/Vivado/2020.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Mar 14 17:37:45 2022...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 1015.180 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/Škola/DE1/digital-electronics-1/labs/04-segment/display/display.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_hex_7seg_behav -key {Behavioral:sim_1:Functional:tb_hex_7seg} -tclbatch {tb_hex_7seg.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+ERROR: [Simtcl 6-50] Simulation engine failed to start: The Simulation shut down unexpectedly during initialization.
+Please see the Tcl Console or the Messages for details.
+exit
