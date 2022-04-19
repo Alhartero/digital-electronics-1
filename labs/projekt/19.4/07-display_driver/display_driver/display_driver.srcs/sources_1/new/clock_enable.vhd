@@ -11,14 +11,14 @@
 
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
-use ieee.numeric_std.all;   -- Package for arithmetic operations
+use ieee.numeric_std.all;   -- Package for arithmetic operations, novinka 
 
 ------------------------------------------------------------
 -- Entity declaration for clock enable
 ------------------------------------------------------------
 entity clock_enable is
     generic(
-        g_MAX : natural := 10  -- Number of clk pulses to
+        g_MAX : natural := 400000  -- Number of clk pulses to, netural = positive integer
                                -- generate one enable signal
                                -- period
     );  -- Note that there IS a semicolon between generic 
